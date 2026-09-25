@@ -1,0 +1,455 @@
+{
+  "rows": [
+    {
+      "phase": 0,
+      "pose": 0,
+      "mode": "nearest",
+      "work_ms": 25.4876625,
+      "update_ms": 1.0962874999999999,
+      "hash": "ba38061a",
+      "eligible": null,
+      "internal_free": 42519,
+      "psram_free": 2949428
+    },
+    {
+      "phase": 1,
+      "pose": 0,
+      "mode": "bilinear",
+      "work_ms": 43.6477,
+      "update_ms": 1.1091624999999998,
+      "hash": "36bd257a",
+      "eligible": null,
+      "internal_free": 42519,
+      "psram_free": 2949428
+    },
+    {
+      "phase": 2,
+      "pose": 0,
+      "mode": "threepoint",
+      "work_ms": 40.80955,
+      "update_ms": 1.1252,
+      "hash": "1d788d63",
+      "eligible": null,
+      "internal_free": 42519,
+      "psram_free": 2949428
+    },
+    {
+      "phase": 3,
+      "pose": 0,
+      "mode": "threepoint",
+      "work_ms": 40.8079875,
+      "update_ms": 1.1224,
+      "hash": "1d788d63",
+      "eligible": null,
+      "internal_free": 42519,
+      "psram_free": 2949428
+    },
+    {
+      "phase": 4,
+      "pose": 0,
+      "mode": "bilinear",
+      "work_ms": 43.64715,
+      "update_ms": 1.109825,
+      "hash": "36bd257a",
+      "eligible": null,
+      "internal_free": 42519,
+      "psram_free": 2949428
+    },
+    {
+      "phase": 5,
+      "pose": 0,
+      "mode": "nearest",
+      "work_ms": 25.4900875,
+      "update_ms": 1.1009749999999998,
+      "hash": "ba38061a",
+      "eligible": null,
+      "internal_free": 42519,
+      "psram_free": 2949428
+    },
+    {
+      "phase": 6,
+      "pose": 1,
+      "mode": "nearest",
+      "work_ms": 10.312725,
+      "update_ms": 0.72015,
+      "hash": "a57664ab",
+      "eligible": null,
+      "internal_free": 42519,
+      "psram_free": 2949428
+    },
+    {
+      "phase": 7,
+      "pose": 1,
+      "mode": "bilinear",
+      "work_ms": 25.1556375,
+      "update_ms": 0.712375,
+      "hash": "25b43dea",
+      "eligible": null,
+      "internal_free": 42519,
+      "psram_free": 2949428
+    },
+    {
+      "phase": 8,
+      "pose": 1,
+      "mode": "threepoint",
+      "work_ms": 22.6660125,
+      "update_ms": 0.725475,
+      "hash": "0a9e8fef",
+      "eligible": null,
+      "internal_free": 42519,
+      "psram_free": 2949428
+    },
+    {
+      "phase": 9,
+      "pose": 1,
+      "mode": "threepoint",
+      "work_ms": 22.6660125,
+      "update_ms": 0.7263375,
+      "hash": "0a9e8fef",
+      "eligible": null,
+      "internal_free": 42519,
+      "psram_free": 2949428
+    },
+    {
+      "phase": 10,
+      "pose": 1,
+      "mode": "bilinear",
+      "work_ms": 25.1564125,
+      "update_ms": 0.7127374999999999,
+      "hash": "25b43dea",
+      "eligible": null,
+      "internal_free": 42519,
+      "psram_free": 2949428
+    },
+    {
+      "phase": 11,
+      "pose": 1,
+      "mode": "nearest",
+      "work_ms": 10.3117125,
+      "update_ms": 0.7198875,
+      "hash": "a57664ab",
+      "eligible": null,
+      "internal_free": 42519,
+      "psram_free": 2949428
+    },
+    {
+      "phase": 12,
+      "pose": 2,
+      "mode": "nearest",
+      "work_ms": 14.9054625,
+      "update_ms": 0.8901625,
+      "hash": "e21e6e65",
+      "eligible": null,
+      "internal_free": 42519,
+      "psram_free": 2949428
+    },
+    {
+      "phase": 13,
+      "pose": 2,
+      "mode": "bilinear",
+      "work_ms": 29.5967625,
+      "update_ms": 0.8945,
+      "hash": "af278ffd",
+      "eligible": null,
+      "internal_free": 42519,
+      "psram_free": 2949428
+    },
+    {
+      "phase": 14,
+      "pose": 2,
+      "mode": "threepoint",
+      "work_ms": 27.297712500000003,
+      "update_ms": 0.911825,
+      "hash": "480709d3",
+      "eligible": null,
+      "internal_free": 42519,
+      "psram_free": 2949428
+    },
+    {
+      "phase": 15,
+      "pose": 2,
+      "mode": "threepoint",
+      "work_ms": 27.298675,
+      "update_ms": 0.90865,
+      "hash": "480709d3",
+      "eligible": null,
+      "internal_free": 42519,
+      "psram_free": 2949428
+    },
+    {
+      "phase": 16,
+      "pose": 2,
+      "mode": "bilinear",
+      "work_ms": 29.5921375,
+      "update_ms": 0.8912,
+      "hash": "af278ffd",
+      "eligible": null,
+      "internal_free": 42519,
+      "psram_free": 2949428
+    },
+    {
+      "phase": 17,
+      "pose": 2,
+      "mode": "nearest",
+      "work_ms": 14.9089375,
+      "update_ms": 0.8921749999999999,
+      "hash": "e21e6e65",
+      "eligible": null,
+      "internal_free": 42519,
+      "psram_free": 2949428
+    },
+    {
+      "phase": 18,
+      "pose": 3,
+      "mode": "nearest",
+      "work_ms": 10.2317625,
+      "update_ms": 0.8115875,
+      "hash": "d86656e2",
+      "eligible": null,
+      "internal_free": 42519,
+      "psram_free": 2949428
+    },
+    {
+      "phase": 19,
+      "pose": 3,
+      "mode": "bilinear",
+      "work_ms": 25.026799999999998,
+      "update_ms": 0.80675,
+      "hash": "91d4b697",
+      "eligible": null,
+      "internal_free": 42519,
+      "psram_free": 2949428
+    },
+    {
+      "phase": 20,
+      "pose": 3,
+      "mode": "threepoint",
+      "work_ms": 22.718775,
+      "update_ms": 0.8252999999999999,
+      "hash": "7c9ee754",
+      "eligible": null,
+      "internal_free": 42519,
+      "psram_free": 2949428
+    },
+    {
+      "phase": 21,
+      "pose": 3,
+      "mode": "threepoint",
+      "work_ms": 22.720599999999997,
+      "update_ms": 0.826,
+      "hash": "7c9ee754",
+      "eligible": null,
+      "internal_free": 42519,
+      "psram_free": 2949428
+    },
+    {
+      "phase": 22,
+      "pose": 3,
+      "mode": "bilinear",
+      "work_ms": 25.0263,
+      "update_ms": 0.8059625,
+      "hash": "91d4b697",
+      "eligible": null,
+      "internal_free": 42519,
+      "psram_free": 2949428
+    },
+    {
+      "phase": 23,
+      "pose": 3,
+      "mode": "nearest",
+      "work_ms": 10.2339875,
+      "update_ms": 0.8077000000000001,
+      "hash": "d86656e2",
+      "eligible": null,
+      "internal_free": 42519,
+      "psram_free": 2949428
+    },
+    {
+      "phase": 24,
+      "pose": 4,
+      "mode": "nearest",
+      "work_ms": 10.4336,
+      "update_ms": 0.6949375,
+      "hash": "9d2a6477",
+      "eligible": null,
+      "internal_free": 42519,
+      "psram_free": 2949428
+    },
+    {
+      "phase": 25,
+      "pose": 4,
+      "mode": "bilinear",
+      "work_ms": 25.239,
+      "update_ms": 0.6988,
+      "hash": "ebf702db",
+      "eligible": null,
+      "internal_free": 42519,
+      "psram_free": 2949428
+    },
+    {
+      "phase": 26,
+      "pose": 4,
+      "mode": "threepoint",
+      "work_ms": 22.750037499999998,
+      "update_ms": 0.701275,
+      "hash": "b3e05d00",
+      "eligible": null,
+      "internal_free": 42519,
+      "psram_free": 2949428
+    },
+    {
+      "phase": 27,
+      "pose": 4,
+      "mode": "threepoint",
+      "work_ms": 22.7480625,
+      "update_ms": 0.700625,
+      "hash": "b3e05d00",
+      "eligible": null,
+      "internal_free": 42519,
+      "psram_free": 2949428
+    },
+    {
+      "phase": 28,
+      "pose": 4,
+      "mode": "bilinear",
+      "work_ms": 25.23515,
+      "update_ms": 0.6953374999999999,
+      "hash": "ebf702db",
+      "eligible": null,
+      "internal_free": 42519,
+      "psram_free": 2949428
+    },
+    {
+      "phase": 29,
+      "pose": 4,
+      "mode": "nearest",
+      "work_ms": 10.4301875,
+      "update_ms": 0.6942875000000001,
+      "hash": "9d2a6477",
+      "eligible": null,
+      "internal_free": 42519,
+      "psram_free": 2949428
+    },
+    {
+      "phase": 30,
+      "pose": 5,
+      "mode": "nearest",
+      "work_ms": 17.1721625,
+      "update_ms": 0.9833375,
+      "hash": "e8a59890",
+      "eligible": null,
+      "internal_free": 42519,
+      "psram_free": 2949428
+    },
+    {
+      "phase": 31,
+      "pose": 5,
+      "mode": "bilinear",
+      "work_ms": 32.92,
+      "update_ms": 1.004225,
+      "hash": "78f958a1",
+      "eligible": null,
+      "internal_free": 42519,
+      "psram_free": 2949428
+    },
+    {
+      "phase": 32,
+      "pose": 5,
+      "mode": "threepoint",
+      "work_ms": 30.1653375,
+      "update_ms": 1.0187,
+      "hash": "29acd383",
+      "eligible": null,
+      "internal_free": 42519,
+      "psram_free": 2949428
+    },
+    {
+      "phase": 33,
+      "pose": 5,
+      "mode": "threepoint",
+      "work_ms": 30.163587500000002,
+      "update_ms": 1.0184625,
+      "hash": "29acd383",
+      "eligible": null,
+      "internal_free": 42519,
+      "psram_free": 2949428
+    },
+    {
+      "phase": 34,
+      "pose": 5,
+      "mode": "bilinear",
+      "work_ms": 32.9219875,
+      "update_ms": 1.0055625,
+      "hash": "78f958a1",
+      "eligible": null,
+      "internal_free": 42519,
+      "psram_free": 2949428
+    },
+    {
+      "phase": 35,
+      "pose": 5,
+      "mode": "nearest",
+      "work_ms": 17.17725,
+      "update_ms": 0.9865750000000001,
+      "hash": "e8a59890",
+      "eligible": null,
+      "internal_free": 42519,
+      "psram_free": 2949428
+    }
+  ],
+  "comparisons": [
+    {
+      "pose": 0,
+      "tour_time": 0,
+      "nearest_ms": 25.488875,
+      "bilinear_ms": 43.647425,
+      "threepoint_ms": 40.80876875
+    },
+    {
+      "pose": 1,
+      "tour_time": 20,
+      "nearest_ms": 10.31221875,
+      "bilinear_ms": 25.156025,
+      "threepoint_ms": 22.6660125
+    },
+    {
+      "pose": 2,
+      "tour_time": 35,
+      "nearest_ms": 14.9072,
+      "bilinear_ms": 29.594450000000002,
+      "threepoint_ms": 27.298193750000003
+    },
+    {
+      "pose": 3,
+      "tour_time": 47,
+      "nearest_ms": 10.232875,
+      "bilinear_ms": 25.02655,
+      "threepoint_ms": 22.7196875
+    },
+    {
+      "pose": 4,
+      "tour_time": 69,
+      "nearest_ms": 10.43189375,
+      "bilinear_ms": 25.237075,
+      "threepoint_ms": 22.749049999999997
+    },
+    {
+      "pose": 5,
+      "tour_time": 81,
+      "nearest_ms": 17.17470625,
+      "bilinear_ms": 32.92099375,
+      "threepoint_ms": 30.1644625
+    }
+  ],
+  "firmware": {
+    "bytes": 5633600,
+    "sha256": "34a945b05e3ec638ae17ad8b1aa4ac569841052f8a830faccf06968f44349d80",
+    "flash_bytes": 16777216,
+    "app_offset": 65536,
+    "tour_seconds": 90,
+    "filter": "nearest/bilinear/threepoint ABCCBA",
+    "psram_backing": true,
+    "tile_cache": false
+  },
+  "measurement": "Same-binary mirrored six-phase order, 20 warm + 80 measured fields per phase. Whole scene update and render, excludes waiting for LCD scanout."
+}

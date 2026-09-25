@@ -1,0 +1,15 @@
+{
+  "Jet": {
+    "url": "https://github.com/CubeCoders/Jet.git",
+    "revision": "c56dfc0c012ba7a09a6e49b4123340ec24981441"
+  },
+  "LovyanGFX": {
+    "url": "https://github.com/CubeCoders/LovyanGFX.git",
+    "revision": "2aa581eb396a5f28c599102b8df7bc2f1ffe5cc5"
+  },
+  "scene": {
+    "license": "LICENSE.n64brew2023",
+    "revision": "8841ddf3e7d591af17287391f4b3b8728064c7bf",
+    "url": "https://github.com/lambertjamesd/n64brew2023"
+  }
+}

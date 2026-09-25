@@ -1,0 +1,252 @@
+{
+  "rows": [
+    {
+      "phase": 0,
+      "pose": 0,
+      "mode": "threepoint",
+      "work_ms": 22.8172,
+      "update_ms": 0.8924125,
+      "hash": "7c9ee754",
+      "eligible": 1,
+      "internal_free": 48487,
+      "psram_free": 865588
+    },
+    {
+      "phase": 1,
+      "pose": 0,
+      "mode": "bilinear",
+      "work_ms": 26.107225,
+      "update_ms": 0.864375,
+      "hash": "91d4b697",
+      "eligible": 1,
+      "internal_free": 48487,
+      "psram_free": 865588
+    },
+    {
+      "phase": 2,
+      "pose": 0,
+      "mode": "cached",
+      "work_ms": 10.419424999999999,
+      "update_ms": 0.842025,
+      "hash": "91d4b697",
+      "eligible": 1,
+      "internal_free": 48487,
+      "psram_free": 865588
+    },
+    {
+      "phase": 3,
+      "pose": 0,
+      "mode": "cached",
+      "work_ms": 10.4225375,
+      "update_ms": 0.840675,
+      "hash": "91d4b697",
+      "eligible": 1,
+      "internal_free": 48487,
+      "psram_free": 865588
+    },
+    {
+      "phase": 4,
+      "pose": 0,
+      "mode": "bilinear",
+      "work_ms": 26.1079,
+      "update_ms": 0.8634375,
+      "hash": "91d4b697",
+      "eligible": 1,
+      "internal_free": 48487,
+      "psram_free": 865588
+    },
+    {
+      "phase": 5,
+      "pose": 0,
+      "mode": "threepoint",
+      "work_ms": 22.8161875,
+      "update_ms": 0.8898250000000001,
+      "hash": "7c9ee754",
+      "eligible": 1,
+      "internal_free": 48487,
+      "psram_free": 865588
+    },
+    {
+      "phase": 6,
+      "pose": 1,
+      "mode": "threepoint",
+      "work_ms": 22.487525,
+      "update_ms": 0.8187625000000001,
+      "hash": "383b831c",
+      "eligible": 1,
+      "internal_free": 48451,
+      "psram_free": 865588
+    },
+    {
+      "phase": 7,
+      "pose": 1,
+      "mode": "bilinear",
+      "work_ms": 25.9714125,
+      "update_ms": 0.7884375,
+      "hash": "e4b2e34d",
+      "eligible": 1,
+      "internal_free": 48451,
+      "psram_free": 865588
+    },
+    {
+      "phase": 8,
+      "pose": 1,
+      "mode": "cached",
+      "work_ms": 9.3920375,
+      "update_ms": 0.7950750000000001,
+      "hash": "e4b2e34d",
+      "eligible": 1,
+      "internal_free": 48451,
+      "psram_free": 865588
+    },
+    {
+      "phase": 9,
+      "pose": 1,
+      "mode": "cached",
+      "work_ms": 9.3912625,
+      "update_ms": 0.7924375,
+      "hash": "e4b2e34d",
+      "eligible": 1,
+      "internal_free": 48451,
+      "psram_free": 865588
+    },
+    {
+      "phase": 10,
+      "pose": 1,
+      "mode": "bilinear",
+      "work_ms": 25.9697875,
+      "update_ms": 0.792275,
+      "hash": "e4b2e34d",
+      "eligible": 1,
+      "internal_free": 48451,
+      "psram_free": 865588
+    },
+    {
+      "phase": 11,
+      "pose": 1,
+      "mode": "threepoint",
+      "work_ms": 22.490075,
+      "update_ms": 0.8216749999999999,
+      "hash": "383b831c",
+      "eligible": 1,
+      "internal_free": 48451,
+      "psram_free": 865588
+    },
+    {
+      "phase": 12,
+      "pose": 2,
+      "mode": "threepoint",
+      "work_ms": 22.8184,
+      "update_ms": 0.8856875,
+      "hash": "972072f5",
+      "eligible": 1,
+      "internal_free": 48451,
+      "psram_free": 865588
+    },
+    {
+      "phase": 13,
+      "pose": 2,
+      "mode": "bilinear",
+      "work_ms": 26.1026125,
+      "update_ms": 0.858,
+      "hash": "afa41924",
+      "eligible": 1,
+      "internal_free": 48451,
+      "psram_free": 865588
+    },
+    {
+      "phase": 14,
+      "pose": 2,
+      "mode": "cached",
+      "work_ms": 10.503025,
+      "update_ms": 0.8206625000000001,
+      "hash": "afa41924",
+      "eligible": 1,
+      "internal_free": 48451,
+      "psram_free": 865588
+    },
+    {
+      "phase": 15,
+      "pose": 2,
+      "mode": "cached",
+      "work_ms": 10.50315,
+      "update_ms": 0.8213875,
+      "hash": "afa41924",
+      "eligible": 1,
+      "internal_free": 48451,
+      "psram_free": 865588
+    },
+    {
+      "phase": 16,
+      "pose": 2,
+      "mode": "bilinear",
+      "work_ms": 26.1084375,
+      "update_ms": 0.85995,
+      "hash": "afa41924",
+      "eligible": 1,
+      "internal_free": 48451,
+      "psram_free": 865588
+    },
+    {
+      "phase": 17,
+      "pose": 2,
+      "mode": "threepoint",
+      "work_ms": 22.8226875,
+      "update_ms": 0.8870125000000001,
+      "hash": "972072f5",
+      "eligible": 1,
+      "internal_free": 48451,
+      "psram_free": 865588
+    }
+  ],
+  "comparisons": [
+    {
+      "pose": 0,
+      "tour_time": 47,
+      "threepoint_ms": 22.81669375,
+      "bilinear_ms": 26.1075625,
+      "cached_ms": 10.42098125,
+      "cached_matches_bilinear": true
+    },
+    {
+      "pose": 1,
+      "tour_time": 51,
+      "threepoint_ms": 22.4888,
+      "bilinear_ms": 25.970599999999997,
+      "cached_ms": 9.39165,
+      "cached_matches_bilinear": true
+    },
+    {
+      "pose": 2,
+      "tour_time": 55,
+      "threepoint_ms": 22.82054375,
+      "bilinear_ms": 26.105525,
+      "cached_ms": 10.5030875,
+      "cached_matches_bilinear": true
+    }
+  ],
+  "firmware": {
+    "bytes": 5634880,
+    "sha256": "6c86057a16bc2ce3fe0920383502d5b69353fb8c8e116870e9e6dbbb50f56246",
+    "flash_bytes": 16777216,
+    "app_offset": 65536,
+    "tour_seconds": 90,
+    "filter": "threepoint/bilinear/cached ABCCBA",
+    "psram_backing": true,
+    "tile_cache": false
+  },
+  "measurement": "Same-binary mirrored six-phase order, 20 warm + 80 measured fields per phase. Whole scene update and render, excludes waiting for LCD scanout.",
+  "allocation": {
+    "free_psram_before": 2962744,
+    "largest_psram_before": 2949120,
+    "requested": 2097152
+  },
+  "cache": {
+    "build_us": 637570,
+    "bytes": 2097152,
+    "free_psram_after": 865588,
+    "largest_psram_after": 851968,
+    "internal_free": 67191
+  },
+  "approx_build_payback_fields": 39.95803561227987
+}

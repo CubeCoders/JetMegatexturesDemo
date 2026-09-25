@@ -1,0 +1,44 @@
+{
+  "source": "chapel_capture (native Jet, ESP32 visual configuration)",
+  "size": [
+    480,
+    320
+  ],
+  "rgb565": true,
+  "half_width": true,
+  "alternating_fields": true,
+  "overlay": false,
+  "filter": "dynamic cached bilinear / nearest on miss",
+  "capture_clock": "nominal 60 fields/s, paired to 30 frames/s; not S3 timing",
+  "fill_allowance": "deterministic 64 rows / at most one tile per field; no host wall-time budget",
+  "warmup": "all preceding tour fields rendered, including gaps between selected clips",
+  "screenshot_seconds": 7.983333333333333,
+  "gif_tour_segments_seconds": [
+    [
+      4,
+      8
+    ],
+    [
+      20,
+      24
+    ],
+    [
+      46,
+      50
+    ]
+  ],
+  "gif_fps": 12,
+  "upstream": "https://github.com/lambertjamesd/n64brew2023",
+  "upstream_revision": "8841ddf3e7d591af17287391f4b3b8728064c7bf",
+  "licence": "../../LICENSE.n64brew2023",
+  "files": {
+    "chapel.png": {
+      "bytes": 84297,
+      "sha256": "06d63b244d8095d01fbd1c2d24877d11cb9104e90f9969487e4f7999eeb5fb2d"
+    },
+    "chapel.gif": {
+      "bytes": 7415065,
+      "sha256": "1c361fca3c4f8602b3096e9f087c5eded16f8075c45de4a25ee3086d09b91906"
+    }
+  }
+}

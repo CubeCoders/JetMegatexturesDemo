@@ -1,0 +1,6 @@
+[submodule "components/Jet"]
+	path = components/Jet
+	url = https://github.com/CubeCoders/Jet.git
+[submodule "components/LovyanGFX"]
+	path = components/LovyanGFX
+	url = https://github.com/CubeCoders/LovyanGFX.git

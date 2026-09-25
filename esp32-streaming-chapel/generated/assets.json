@@ -1,0 +1,1254 @@
+{
+  "asset_bytes": 5253888,
+  "flash_budget": 16777216,
+  "asset_ceiling": 12582912,
+  "tile_bytes": 1024,
+  "page_count": 5118,
+  "palette_bytes": 9216,
+  "coarse_bytes": 3840,
+  "sha256": "04172d7ccea428b9d3f7edb5554e43fe1660e38676a9ad0d493e62d3a1867ac1",
+  "textures": [
+    {
+      "name": "benches",
+      "source": "upstream\\assets\\materials\\megatextures\\benches.png",
+      "source_sha256": "2762553d278f3647540e3cb3bd772831d7787db491ad042834862a24aeda0984",
+      "original_size": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "palette_offset": 0,
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "offset": 512,
+          "first_page": 0,
+          "pages_x": 16,
+          "pages_y": 16
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "offset": 262656,
+          "first_page": 256,
+          "pages_x": 8,
+          "pages_y": 8
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "offset": 328192,
+          "first_page": 320,
+          "pages_x": 4,
+          "pages_y": 4
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "offset": 344576,
+          "first_page": 336,
+          "pages_x": 2,
+          "pages_y": 2
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "offset": 348672,
+          "first_page": 340,
+          "pages_x": 1,
+          "pages_y": 1
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "offset": 349696,
+          "first_page": -1,
+          "pages_x": 1,
+          "pages_y": 1
+        }
+      ],
+      "nonopaque_alpha_pixels": 209944,
+      "unique_rgb565_colours": 1262,
+      "palette_colours": 162,
+      "mean_rgb_error": 0.8437054753303528,
+      "rgb_psnr_db": 40.00951970418096
+    },
+    {
+      "name": "ceiling",
+      "source": "upstream\\assets\\materials\\megatextures\\ceiling.png",
+      "source_sha256": "4a2568194aedbffea6f77990434b618489b9ae70b624859b2985e25d9ec69c9d",
+      "original_size": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "palette_offset": 349952,
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "offset": 350464,
+          "first_page": 341,
+          "pages_x": 16,
+          "pages_y": 16
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "offset": 612608,
+          "first_page": 597,
+          "pages_x": 8,
+          "pages_y": 8
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "offset": 678144,
+          "first_page": 661,
+          "pages_x": 4,
+          "pages_y": 4
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "offset": 694528,
+          "first_page": 677,
+          "pages_x": 2,
+          "pages_y": 2
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "offset": 698624,
+          "first_page": 681,
+          "pages_x": 1,
+          "pages_y": 1
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "offset": 699648,
+          "first_page": -1,
+          "pages_x": 1,
+          "pages_y": 1
+        }
+      ],
+      "nonopaque_alpha_pixels": 160229,
+      "unique_rgb565_colours": 407,
+      "palette_colours": 72,
+      "mean_rgb_error": 0.44160208106040955,
+      "rgb_psnr_db": 42.28112063873412
+    },
+    {
+      "name": "entry",
+      "source": "upstream\\assets\\materials\\megatextures\\entry.png",
+      "source_sha256": "fabbb9d2eb6b620415c022c4d7a9fcc989819eb79f7dc51f8967105ea856d393",
+      "original_size": [
+        512,
+        512
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "palette_offset": 699904,
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "offset": 700416,
+          "first_page": 682,
+          "pages_x": 16,
+          "pages_y": 16
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "offset": 962560,
+          "first_page": 938,
+          "pages_x": 8,
+          "pages_y": 8
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "offset": 1028096,
+          "first_page": 1002,
+          "pages_x": 4,
+          "pages_y": 4
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "offset": 1044480,
+          "first_page": 1018,
+          "pages_x": 2,
+          "pages_y": 2
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "offset": 1048576,
+          "first_page": 1022,
+          "pages_x": 1,
+          "pages_y": 1
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "offset": 1049600,
+          "first_page": -1,
+          "pages_x": 1,
+          "pages_y": 1
+        }
+      ],
+      "nonopaque_alpha_pixels": 20944,
+      "unique_rgb565_colours": 361,
+      "palette_colours": 66,
+      "mean_rgb_error": 0.4178517758846283,
+      "rgb_psnr_db": 43.12040850174786
+    },
+    {
+      "name": "floor_main",
+      "source": "upstream\\assets\\materials\\megatextures\\floor_main.png",
+      "source_sha256": "db5411b3e3903ffbc6a2ee149824a372538518f46402df1c94ed94584f33c588",
+      "original_size": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "palette_offset": 1049856,
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "offset": 1050368,
+          "first_page": 1023,
+          "pages_x": 16,
+          "pages_y": 16
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "offset": 1312512,
+          "first_page": 1279,
+          "pages_x": 8,
+          "pages_y": 8
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "offset": 1378048,
+          "first_page": 1343,
+          "pages_x": 4,
+          "pages_y": 4
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "offset": 1394432,
+          "first_page": 1359,
+          "pages_x": 2,
+          "pages_y": 2
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "offset": 1398528,
+          "first_page": 1363,
+          "pages_x": 1,
+          "pages_y": 1
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "offset": 1399552,
+          "first_page": -1,
+          "pages_x": 1,
+          "pages_y": 1
+        }
+      ],
+      "nonopaque_alpha_pixels": 101270,
+      "unique_rgb565_colours": 1432,
+      "palette_colours": 180,
+      "mean_rgb_error": 1.0086517333984375,
+      "rgb_psnr_db": 39.13168057851842
+    },
+    {
+      "name": "floor_upper",
+      "source": "upstream\\assets\\materials\\megatextures\\floor_upper.png",
+      "source_sha256": "ab51cd138ccb168eed59b5d65b596cf9e8d957721cd63d21562fb71e89583ab2",
+      "original_size": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "palette_offset": 1399808,
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "offset": 1400320,
+          "first_page": 1364,
+          "pages_x": 16,
+          "pages_y": 16
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "offset": 1662464,
+          "first_page": 1620,
+          "pages_x": 8,
+          "pages_y": 8
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "offset": 1728000,
+          "first_page": 1684,
+          "pages_x": 4,
+          "pages_y": 4
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "offset": 1744384,
+          "first_page": 1700,
+          "pages_x": 2,
+          "pages_y": 2
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "offset": 1748480,
+          "first_page": 1704,
+          "pages_x": 1,
+          "pages_y": 1
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "offset": 1749504,
+          "first_page": -1,
+          "pages_x": 1,
+          "pages_y": 1
+        }
+      ],
+      "nonopaque_alpha_pixels": 179391,
+      "unique_rgb565_colours": 6922,
+      "palette_colours": 242,
+      "mean_rgb_error": 2.578402280807495,
+      "rgb_psnr_db": 33.91835132557306
+    },
+    {
+      "name": "wall_back",
+      "source": "upstream\\assets\\materials\\megatextures\\wall_back.png",
+      "source_sha256": "7bcbb0a5fa210081a3b474c46c98ab16079ac02d3719b5ac5d36f5cf818c56a3",
+      "original_size": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "palette_offset": 1749760,
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "offset": 1750272,
+          "first_page": 1705,
+          "pages_x": 16,
+          "pages_y": 16
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "offset": 2012416,
+          "first_page": 1961,
+          "pages_x": 8,
+          "pages_y": 8
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "offset": 2077952,
+          "first_page": 2025,
+          "pages_x": 4,
+          "pages_y": 4
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "offset": 2094336,
+          "first_page": 2041,
+          "pages_x": 2,
+          "pages_y": 2
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "offset": 2098432,
+          "first_page": 2045,
+          "pages_x": 1,
+          "pages_y": 1
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "offset": 2099456,
+          "first_page": -1,
+          "pages_x": 1,
+          "pages_y": 1
+        }
+      ],
+      "nonopaque_alpha_pixels": 295328,
+      "unique_rgb565_colours": 1042,
+      "palette_colours": 87,
+      "mean_rgb_error": 0.3868649899959564,
+      "rgb_psnr_db": 43.27251182268955
+    },
+    {
+      "name": "wall_left_0",
+      "source": "upstream\\assets\\materials\\megatextures\\wall_left_0.png",
+      "source_sha256": "0ef00cf99859a5e4f18566f51a240acec28165e3b8da5eee207690c3fddbcb82",
+      "original_size": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "palette_offset": 2099712,
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "offset": 2100224,
+          "first_page": 2046,
+          "pages_x": 16,
+          "pages_y": 16
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "offset": 2362368,
+          "first_page": 2302,
+          "pages_x": 8,
+          "pages_y": 8
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "offset": 2427904,
+          "first_page": 2366,
+          "pages_x": 4,
+          "pages_y": 4
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "offset": 2444288,
+          "first_page": 2382,
+          "pages_x": 2,
+          "pages_y": 2
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "offset": 2448384,
+          "first_page": 2386,
+          "pages_x": 1,
+          "pages_y": 1
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "offset": 2449408,
+          "first_page": -1,
+          "pages_x": 1,
+          "pages_y": 1
+        }
+      ],
+      "nonopaque_alpha_pixels": 33938,
+      "unique_rgb565_colours": 4387,
+      "palette_colours": 132,
+      "mean_rgb_error": 1.5835520029067993,
+      "rgb_psnr_db": 35.5667706542643
+    },
+    {
+      "name": "wall_left_1",
+      "source": "upstream\\assets\\materials\\megatextures\\wall_left_1.png",
+      "source_sha256": "b790961ef4e6b55f299b61f8763f5930334e0a41a944b92c1ab214813d249246",
+      "original_size": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "palette_offset": 2449664,
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "offset": 2450176,
+          "first_page": 2387,
+          "pages_x": 16,
+          "pages_y": 16
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "offset": 2712320,
+          "first_page": 2643,
+          "pages_x": 8,
+          "pages_y": 8
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "offset": 2777856,
+          "first_page": 2707,
+          "pages_x": 4,
+          "pages_y": 4
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "offset": 2794240,
+          "first_page": 2723,
+          "pages_x": 2,
+          "pages_y": 2
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "offset": 2798336,
+          "first_page": 2727,
+          "pages_x": 1,
+          "pages_y": 1
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "offset": 2799360,
+          "first_page": -1,
+          "pages_x": 1,
+          "pages_y": 1
+        }
+      ],
+      "nonopaque_alpha_pixels": 53990,
+      "unique_rgb565_colours": 4501,
+      "palette_colours": 142,
+      "mean_rgb_error": 1.7068405151367188,
+      "rgb_psnr_db": 34.962469315262524
+    },
+    {
+      "name": "wall_main",
+      "source": "upstream\\assets\\materials\\megatextures\\wall_main.png",
+      "source_sha256": "8190b437c88e192f18d1426ef3378debabf1e800e0252af43319dd7addd6ed4f",
+      "original_size": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "palette_offset": 2799616,
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "offset": 2800128,
+          "first_page": 2728,
+          "pages_x": 16,
+          "pages_y": 16
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "offset": 3062272,
+          "first_page": 2984,
+          "pages_x": 8,
+          "pages_y": 8
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "offset": 3127808,
+          "first_page": 3048,
+          "pages_x": 4,
+          "pages_y": 4
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "offset": 3144192,
+          "first_page": 3064,
+          "pages_x": 2,
+          "pages_y": 2
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "offset": 3148288,
+          "first_page": 3068,
+          "pages_x": 1,
+          "pages_y": 1
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "offset": 3149312,
+          "first_page": -1,
+          "pages_x": 1,
+          "pages_y": 1
+        }
+      ],
+      "nonopaque_alpha_pixels": 360599,
+      "unique_rgb565_colours": 2075,
+      "palette_colours": 97,
+      "mean_rgb_error": 0.6640231013298035,
+      "rgb_psnr_db": 39.69773116003588
+    },
+    {
+      "name": "wall_right_0",
+      "source": "upstream\\assets\\materials\\megatextures\\wall_right_0.png",
+      "source_sha256": "7d202088269c21196d1fb4ce85b7738d2085650719704f9ad9dc5334f60af51d",
+      "original_size": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "palette_offset": 3149568,
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "offset": 3150080,
+          "first_page": 3069,
+          "pages_x": 16,
+          "pages_y": 16
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "offset": 3412224,
+          "first_page": 3325,
+          "pages_x": 8,
+          "pages_y": 8
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "offset": 3477760,
+          "first_page": 3389,
+          "pages_x": 4,
+          "pages_y": 4
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "offset": 3494144,
+          "first_page": 3405,
+          "pages_x": 2,
+          "pages_y": 2
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "offset": 3498240,
+          "first_page": 3409,
+          "pages_x": 1,
+          "pages_y": 1
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "offset": 3499264,
+          "first_page": -1,
+          "pages_x": 1,
+          "pages_y": 1
+        }
+      ],
+      "nonopaque_alpha_pixels": 23042,
+      "unique_rgb565_colours": 1528,
+      "palette_colours": 129,
+      "mean_rgb_error": 0.8906529545783997,
+      "rgb_psnr_db": 39.77275745861326
+    },
+    {
+      "name": "wall_right_1",
+      "source": "upstream\\assets\\materials\\megatextures\\wall_right_1.png",
+      "source_sha256": "0961e2e8b8fa23f0af82a59827687a4928943be6b4d43a71c0d89b6a0a2eec17",
+      "original_size": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "palette_offset": 3499520,
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "offset": 3500032,
+          "first_page": 3410,
+          "pages_x": 16,
+          "pages_y": 16
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "offset": 3762176,
+          "first_page": 3666,
+          "pages_x": 8,
+          "pages_y": 8
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "offset": 3827712,
+          "first_page": 3730,
+          "pages_x": 4,
+          "pages_y": 4
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "offset": 3844096,
+          "first_page": 3746,
+          "pages_x": 2,
+          "pages_y": 2
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "offset": 3848192,
+          "first_page": 3750,
+          "pages_x": 1,
+          "pages_y": 1
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "offset": 3849216,
+          "first_page": -1,
+          "pages_x": 1,
+          "pages_y": 1
+        }
+      ],
+      "nonopaque_alpha_pixels": 37145,
+      "unique_rgb565_colours": 2030,
+      "palette_colours": 141,
+      "mean_rgb_error": 0.8993733525276184,
+      "rgb_psnr_db": 39.22313827974368
+    },
+    {
+      "name": "window_left_0",
+      "source": "upstream\\assets\\materials\\megatextures\\window_left_0.png",
+      "source_sha256": "d4e58975d429e73111fba9b195e4d6ac3e0dfe40d29d6dc7c2c53ba373fa024f",
+      "original_size": [
+        512,
+        1024
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "palette_offset": 3849472,
+      "levels": [
+        {
+          "width": 256,
+          "height": 512,
+          "offset": 3849984,
+          "first_page": 3751,
+          "pages_x": 8,
+          "pages_y": 16
+        },
+        {
+          "width": 128,
+          "height": 256,
+          "offset": 3981056,
+          "first_page": 3879,
+          "pages_x": 4,
+          "pages_y": 8
+        },
+        {
+          "width": 64,
+          "height": 128,
+          "offset": 4013824,
+          "first_page": 3911,
+          "pages_x": 2,
+          "pages_y": 4
+        },
+        {
+          "width": 32,
+          "height": 64,
+          "offset": 4022016,
+          "first_page": 3919,
+          "pages_x": 1,
+          "pages_y": 2
+        },
+        {
+          "width": 16,
+          "height": 32,
+          "offset": 4024064,
+          "first_page": 3921,
+          "pages_x": 1,
+          "pages_y": 1
+        },
+        {
+          "width": 8,
+          "height": 16,
+          "offset": 4025088,
+          "first_page": -1,
+          "pages_x": 1,
+          "pages_y": 1
+        }
+      ],
+      "nonopaque_alpha_pixels": 60268,
+      "unique_rgb565_colours": 4439,
+      "palette_colours": 118,
+      "mean_rgb_error": 2.304448366165161,
+      "rgb_psnr_db": 31.87963138397924
+    },
+    {
+      "name": "window_left_1",
+      "source": "upstream\\assets\\materials\\megatextures\\window_left_1.png",
+      "source_sha256": "ee23848b0acb9e42741a95d1170406ba2f6ef0f8f491337c45562b3e1edc5309",
+      "original_size": [
+        512,
+        1024
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "palette_offset": 4025216,
+      "levels": [
+        {
+          "width": 256,
+          "height": 512,
+          "offset": 4025728,
+          "first_page": 3922,
+          "pages_x": 8,
+          "pages_y": 16
+        },
+        {
+          "width": 128,
+          "height": 256,
+          "offset": 4156800,
+          "first_page": 4050,
+          "pages_x": 4,
+          "pages_y": 8
+        },
+        {
+          "width": 64,
+          "height": 128,
+          "offset": 4189568,
+          "first_page": 4082,
+          "pages_x": 2,
+          "pages_y": 4
+        },
+        {
+          "width": 32,
+          "height": 64,
+          "offset": 4197760,
+          "first_page": 4090,
+          "pages_x": 1,
+          "pages_y": 2
+        },
+        {
+          "width": 16,
+          "height": 32,
+          "offset": 4199808,
+          "first_page": 4092,
+          "pages_x": 1,
+          "pages_y": 1
+        },
+        {
+          "width": 8,
+          "height": 16,
+          "offset": 4200832,
+          "first_page": -1,
+          "pages_x": 1,
+          "pages_y": 1
+        }
+      ],
+      "nonopaque_alpha_pixels": 60268,
+      "unique_rgb565_colours": 2927,
+      "palette_colours": 146,
+      "mean_rgb_error": 1.3066610097885132,
+      "rgb_psnr_db": 36.25413665015964
+    },
+    {
+      "name": "window_left_2",
+      "source": "upstream\\assets\\materials\\megatextures\\window_left_2.png",
+      "source_sha256": "82ea59720cb103ed889305b9da3eea2c60e639c196da224a8065043685ac374d",
+      "original_size": [
+        512,
+        1024
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "palette_offset": 4200960,
+      "levels": [
+        {
+          "width": 256,
+          "height": 512,
+          "offset": 4201472,
+          "first_page": 4093,
+          "pages_x": 8,
+          "pages_y": 16
+        },
+        {
+          "width": 128,
+          "height": 256,
+          "offset": 4332544,
+          "first_page": 4221,
+          "pages_x": 4,
+          "pages_y": 8
+        },
+        {
+          "width": 64,
+          "height": 128,
+          "offset": 4365312,
+          "first_page": 4253,
+          "pages_x": 2,
+          "pages_y": 4
+        },
+        {
+          "width": 32,
+          "height": 64,
+          "offset": 4373504,
+          "first_page": 4261,
+          "pages_x": 1,
+          "pages_y": 2
+        },
+        {
+          "width": 16,
+          "height": 32,
+          "offset": 4375552,
+          "first_page": 4263,
+          "pages_x": 1,
+          "pages_y": 1
+        },
+        {
+          "width": 8,
+          "height": 16,
+          "offset": 4376576,
+          "first_page": -1,
+          "pages_x": 1,
+          "pages_y": 1
+        }
+      ],
+      "nonopaque_alpha_pixels": 60268,
+      "unique_rgb565_colours": 3723,
+      "palette_colours": 142,
+      "mean_rgb_error": 1.9923757314682007,
+      "rgb_psnr_db": 34.41272794609611
+    },
+    {
+      "name": "window_main",
+      "source": "upstream\\assets\\materials\\megatextures\\window_main.png",
+      "source_sha256": "4384bec48c2bfeebfb075475e6025f895335e6e52433d5aea6ceaec3435d2a2d",
+      "original_size": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "palette_offset": 4376704,
+      "levels": [
+        {
+          "width": 512,
+          "height": 512,
+          "offset": 4377216,
+          "first_page": 4264,
+          "pages_x": 16,
+          "pages_y": 16
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "offset": 4639360,
+          "first_page": 4520,
+          "pages_x": 8,
+          "pages_y": 8
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "offset": 4704896,
+          "first_page": 4584,
+          "pages_x": 4,
+          "pages_y": 4
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "offset": 4721280,
+          "first_page": 4600,
+          "pages_x": 2,
+          "pages_y": 2
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "offset": 4725376,
+          "first_page": 4604,
+          "pages_x": 1,
+          "pages_y": 1
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "offset": 4726400,
+          "first_page": -1,
+          "pages_x": 1,
+          "pages_y": 1
+        }
+      ],
+      "nonopaque_alpha_pixels": 257801,
+      "unique_rgb565_colours": 5760,
+      "palette_colours": 162,
+      "mean_rgb_error": 2.086223602294922,
+      "rgb_psnr_db": 33.03527056909004
+    },
+    {
+      "name": "window_right_0",
+      "source": "upstream\\assets\\materials\\megatextures\\window_right_0.png",
+      "source_sha256": "f6648483c3c98d8af00a97836f59012ed834caedfeb8bb83b95efe496bd7268e",
+      "original_size": [
+        512,
+        1024
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "palette_offset": 4726656,
+      "levels": [
+        {
+          "width": 256,
+          "height": 512,
+          "offset": 4727168,
+          "first_page": 4605,
+          "pages_x": 8,
+          "pages_y": 16
+        },
+        {
+          "width": 128,
+          "height": 256,
+          "offset": 4858240,
+          "first_page": 4733,
+          "pages_x": 4,
+          "pages_y": 8
+        },
+        {
+          "width": 64,
+          "height": 128,
+          "offset": 4891008,
+          "first_page": 4765,
+          "pages_x": 2,
+          "pages_y": 4
+        },
+        {
+          "width": 32,
+          "height": 64,
+          "offset": 4899200,
+          "first_page": 4773,
+          "pages_x": 1,
+          "pages_y": 2
+        },
+        {
+          "width": 16,
+          "height": 32,
+          "offset": 4901248,
+          "first_page": 4775,
+          "pages_x": 1,
+          "pages_y": 1
+        },
+        {
+          "width": 8,
+          "height": 16,
+          "offset": 4902272,
+          "first_page": -1,
+          "pages_x": 1,
+          "pages_y": 1
+        }
+      ],
+      "nonopaque_alpha_pixels": 54056,
+      "unique_rgb565_colours": 4526,
+      "palette_colours": 129,
+      "mean_rgb_error": 2.15679669380188,
+      "rgb_psnr_db": 32.54655893215606
+    },
+    {
+      "name": "window_right_1",
+      "source": "upstream\\assets\\materials\\megatextures\\window_right_1.png",
+      "source_sha256": "6ba538e3f16c0e8e31fff42ed32f0df41e2e0e8ca546160166e1006d773992aa",
+      "original_size": [
+        512,
+        1024
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "palette_offset": 4902400,
+      "levels": [
+        {
+          "width": 256,
+          "height": 512,
+          "offset": 4902912,
+          "first_page": 4776,
+          "pages_x": 8,
+          "pages_y": 16
+        },
+        {
+          "width": 128,
+          "height": 256,
+          "offset": 5033984,
+          "first_page": 4904,
+          "pages_x": 4,
+          "pages_y": 8
+        },
+        {
+          "width": 64,
+          "height": 128,
+          "offset": 5066752,
+          "first_page": 4936,
+          "pages_x": 2,
+          "pages_y": 4
+        },
+        {
+          "width": 32,
+          "height": 64,
+          "offset": 5074944,
+          "first_page": 4944,
+          "pages_x": 1,
+          "pages_y": 2
+        },
+        {
+          "width": 16,
+          "height": 32,
+          "offset": 5076992,
+          "first_page": 4946,
+          "pages_x": 1,
+          "pages_y": 1
+        },
+        {
+          "width": 8,
+          "height": 16,
+          "offset": 5078016,
+          "first_page": -1,
+          "pages_x": 1,
+          "pages_y": 1
+        }
+      ],
+      "nonopaque_alpha_pixels": 54056,
+      "unique_rgb565_colours": 2779,
+      "palette_colours": 146,
+      "mean_rgb_error": 1.7286376953125,
+      "rgb_psnr_db": 35.19229762306072
+    },
+    {
+      "name": "window_right_2",
+      "source": "upstream\\assets\\materials\\megatextures\\window_right_2.png",
+      "source_sha256": "73fed1026d9f051b41f567ad7159f493f00288b39f7fcaaeffd962d9fe06fea1",
+      "original_size": [
+        512,
+        1024
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "palette_offset": 5078144,
+      "levels": [
+        {
+          "width": 256,
+          "height": 512,
+          "offset": 5078656,
+          "first_page": 4947,
+          "pages_x": 8,
+          "pages_y": 16
+        },
+        {
+          "width": 128,
+          "height": 256,
+          "offset": 5209728,
+          "first_page": 5075,
+          "pages_x": 4,
+          "pages_y": 8
+        },
+        {
+          "width": 64,
+          "height": 128,
+          "offset": 5242496,
+          "first_page": 5107,
+          "pages_x": 2,
+          "pages_y": 4
+        },
+        {
+          "width": 32,
+          "height": 64,
+          "offset": 5250688,
+          "first_page": 5115,
+          "pages_x": 1,
+          "pages_y": 2
+        },
+        {
+          "width": 16,
+          "height": 32,
+          "offset": 5252736,
+          "first_page": 5117,
+          "pages_x": 1,
+          "pages_y": 1
+        },
+        {
+          "width": 8,
+          "height": 16,
+          "offset": 5253760,
+          "first_page": -1,
+          "pages_x": 1,
+          "pages_y": 1
+        }
+      ],
+      "nonopaque_alpha_pixels": 54056,
+      "unique_rgb565_colours": 3547,
+      "palette_colours": 154,
+      "mean_rgb_error": 1.7511749267578125,
+      "rgb_psnr_db": 34.56385973628829
+    }
+  ]
+}

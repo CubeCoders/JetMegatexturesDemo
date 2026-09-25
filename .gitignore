@@ -1,0 +1,12 @@
+**/build*/
+**/temp/
+**/__pycache__/
+**/sdkconfig
+**/sdkconfig.old
+**/sdkconfig.s3*
+**/managed_components/
+upstream/
+*.rgb
+*.ppm
+*.exe
+*.obj
