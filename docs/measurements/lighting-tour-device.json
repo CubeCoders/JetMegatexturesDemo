@@ -1,0 +1,14 @@
+{
+  "date": "2026-09-25",
+  "buttons": true,
+  "firmware_sha256": "55b84d1856adfe78ec09d118d185a9f4608258c4940b839728e0d120628908fe",
+  "firmware_bytes": 5643456,
+  "asset_sha256": "33b9a359129c9f9cf86248b8b96a9bb732dd1cad9678730b2566392e6ff8ef72",
+  "camera_source_sha256": "a35ec34321dc9ebbb1de4358b6ef67f3cee6516489882812bc034a0819849aa6",
+  "flashed": true,
+  "flash_readback_verified": true,
+  "capture_seconds": 100,
+  "logged_error_markers": [],
+  "manual_control_seen": false,
+  "note": "Playback validation only; not a matched performance benchmark. Serial monitor closed after capture."
+}

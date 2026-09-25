@@ -23,21 +23,24 @@ inline Pose mix(const Pose& a, const Pose& b, float f) {
 }
 inline Pose tour(float seconds) {
     struct Key { float seconds; Pose pose; };
-    // Slow lateral/vertical passes put the highest window mips on screen.
-    // The camera stays inside the wall planes, including the recessed glass.
+    // Alternate room-scale lighting with window reveals: the coloured recesses,
+    // stone sill and floor carry as much of the baked-lighting story as the glass.
+    // Remain inside the walls and above the pews/altar throughout the loop.
     static constexpr Key keys[] = {
         {0,  {0,2.2f,-12.5f,0,-7,82}},
         {8,  {0,2.4f,-6,0,-7,78}},
-        {15, {-3.6f,2.9f,-7,-90,-3,72}},
-        {20, {-4.65f,2.7f,-7.45f,-90,-6,70}},
-        {28, {-4.65f,3.6f,-6.65f,-90,0,70}},
-        {35, {-2,3,-2,-20,-10,78}},
-        {43, {-1.2f,4.5f,.8f,14,-12,72}},
-        {51, {0,5.5f,2,0,-4,68}},
-        {59, {1.2f,4.3f,1.3f,-28,-4,72}},
-        {65, {4.65f,3.2f,-3.65f,90,-4,70}},
-        {73, {4.65f,2.7f,-4.45f,90,-6,70}},
-        {81, {1.5f,2.5f,-8,170,0,80}},
+        {14, {-3.2f,2.6f,-7,-90,-4,78}},
+        {19, {-3.5f,2.8f,-4.6f,-76,4,78}},
+        {26, {-3.65f,2.35f,-3.3f,-110,26,75}},
+        {34, {-2.1f,2.6f,-3.6f,27,-8,84}},
+        {41, {-1,3.5f,-2.5f,10,-10,82}},
+        {49, {0,5.2f,1.1f,0,-6,76}},
+        {55, {1.4f,3.6f,-2.5f,-18,12,84}},
+        {58, {2,2.7f,-2.9f,35,7,84}},
+        {63, {3.8f,2.3f,-3.5f,105,25,78}},
+        {70, {3.7f,2.6f,-4.4f,80,14,78}},
+        {77, {2,2.5f,-7.6f,165,22,80}},
+        {84, {.3f,2.2f,-11,220,8,82}},
         {90, {0,2.2f,-12.5f,360,-7,82}}
     };
     const float t = std::fmod(std::max(0.f,seconds),tourDuration);

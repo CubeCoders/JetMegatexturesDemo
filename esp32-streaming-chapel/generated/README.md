@@ -19,6 +19,14 @@ Textures are reduced to a maximum dimension of 512 pixels, quantized to
 index tiles. Smallest mips are row-major. The scene contains 108 surfaces and
 325 triangles. The lighting detail is baked into the source textures.
 
+Palette conversion uses lightness-weighted Oklab fitting with extra importance
+for bright/chromatic colours, edge-aware cleanup of training data only, and
+deduplicated RGB565 entries. Each whole mip is Floyd–Steinberg diffused before
+tiling, using a single shared palette per source texture. Mips are generated
+from the undithered RGB base. The source artwork is otherwise unchanged.
+See the [palette explanation](../../README.md#perceptually-modelled-palettes-and-diffusion)
+and [Oklab attribution](../../THIRD_PARTY_NOTICES.md#oklab-colour-conversion).
+
 `scene.json` records the source Blender SHA-256 and converted geometry.
 `assets.json` records each original texture path/hash, dimensions, palette error,
 mip offsets and the SHA-256 of `../main/assets.bin`. `../main/ChapelAssets.hpp`

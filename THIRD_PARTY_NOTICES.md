@@ -15,6 +15,16 @@ See [asset provenance](esp32-streaming-chapel/generated/README.md) for the exact
 source paths and modifications. Retain this notice and the upstream licence when
 redistributing the derived assets, including with firmware.
 
+## Oklab colour conversion
+
+The offline palette helper adapts Björn Ottosson's Oklab conversion formulas from
+[A perceptual color space for image processing](https://bottosson.github.io/posts/oklab/).
+The author publishes the example conversion code as public domain (with MIT as
+an alternative). We use the public-domain grant and retain this attribution.
+The palette importance weights, RGB565-constrained fitting and training cleanup
+are part of this adaptation. Error diffusion uses Pillow's standard
+Floyd–Steinberg mode.
+
 ## Jet
 
 [CubeCoders/Jet](https://github.com/CubeCoders/Jet) is included as a pinned Git

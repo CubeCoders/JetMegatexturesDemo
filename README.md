@@ -2,7 +2,8 @@
 
 A richly textured chapel rendered entirely in software on an **ESP32-S3**, using
 [Jet](https://github.com/CubeCoders/Jet). A 90-second camera tour explores the
-interior and stained glass; an optional controller lets you look around freely.
+interior, stained glass and coloured light baked into the surrounding stonework;
+an optional controller lets you look around freely.
 
 This is an ESP32 adaptation of **James D. Lambert's
 [N64 megatexture demo](https://github.com/lambertjamesd/n64brew2023)**. The chapel,
@@ -13,7 +14,14 @@ textures on constrained hardware inspired this version. His
 
 ![The chapel rendered by Jet at ESP32 resolution](docs/media/chapel.png)
 
-![Short walkthrough of the chapel and stained glass](docs/media/chapel.gif)
+![Wide views of the chapel, altar, pews and baked lighting](docs/media/chapel.gif)
+
+The water-gun window is especially striking when looking slightly down: its
+colours spill across the recessed stone sill, with the carved trim below it.
+These lighting effects are part of James' baked artwork, carried through the
+paletted textures rather than calculated as dynamic lighting.
+
+![Water-gun stained glass casting coloured baked light onto the stone sill and surrounding trim](docs/media/water-gun-light.png)
 
 These are native software captures of the ESP32 visual configuration, with the
 FPS overlay hidden: **480×320 output, RGB565, half-width rendering and alternating
@@ -26,7 +34,8 @@ not a hardware benchmark. [Capture details and regeneration](docs/media/README.m
 - **Baked lighting on simple geometry:** 325 triangles across 108 surfaces, with
   the visual detail carried by 18 textured materials.
 - **Paletted mipmapped textures:** a 5.01 MiB texture pack fits in PSRAM, while
-  256-colour RGB565 palettes stay in faster internal RAM.
+  256-colour RGB565 palettes stay in faster internal RAM. Perceptually weighted
+  palette selection and error diffusion preserve bright colours and subtle lighting.
 - **Perspective-correct texture mapping:** adaptive short spans reduce the cost
   of perspective division while limiting texture-coordinate error.
 - **A moving cache of bilinear results:** frequently sampled UV regions are
@@ -40,6 +49,40 @@ This is **not yet an out-of-core demo of a scene larger than RAM**. The original
 source-tile cache remains available for experiments, but is disabled because it
 did not materially improve this scene's measured performance. The separate
 prefiltered hot cache is enabled and is responsible for the smoothing speedup.
+
+## Perceptually modelled palettes and diffusion
+
+Fitting this artwork into 8-bit indices needs more care than simply keeping the
+most common colours. Noise and near-duplicate shades in the source can consume
+palette entries that would do more for the stained glass, beach-ball colours and
+soft coloured light on the stone. Our offline converter combines:
+
+- **Perceptual palette fitting in Oklab**, with extra weight on lightness error
+  to protect the shading that gives the room its depth.
+- **Extra priority for bright, saturated colours**, so small colourful features
+  are represented even among large areas of muted stone.
+- **Edge-aware cleanup of palette training data**, reducing the influence of
+  low-contrast colour speckle. The source pixels used for quantization retain
+  their original detail; this cleanup only guides palette selection.
+- **Optimization against the actual RGB565 colours the display can show**,
+  merging duplicates and refilling their slots during fitting. All 18 current
+  palettes use 256 distinct displayable colours.
+- **Floyd–Steinberg error diffusion over each complete mip before tiling**,
+  distributing the remaining quantization error without restarting at every
+  32×32 tile boundary. Each mip comes from the undithered RGB source image.
+
+The perceptual model guides **palette selection**; diffusion is Pillow's standard
+Floyd–Steinberg implementation. This is lossy conversion, not a claim to recover
+the original colours exactly. It produces cleaner colours and less conspicuous
+dithering in this scene without adding any per-frame work or enlarging the pack.
+
+Palettes are **per source texture/material, not per tile**: each material shares
+one 256-entry RGB565 palette across all its tiles and mip levels. Eighteen
+palettes occupy **9 KiB of internal RAM**; the complete indexed/mipmapped pack
+remains **5,253,888 bytes**. The approved pack is reproducible with the pinned
+[conversion dependencies](esp32-streaming-chapel/tools/requirements.txt).
+[Conversion measurements](docs/measurements/weighted-palettes.json) record the
+chosen Oklab error metrics; they are diagnostics, not universal quality scores.
 
 ## Build and run
 
@@ -159,7 +202,8 @@ Hits match the current bilinear sampler exactly; misses use nearest. All cache
 allocations occur at startup, avoiding runtime allocation churn. Textures and
 palettes are immutable here; changing them would require invalidation.
 
-On the tested S3, two full 90-second tours reported **32.6–60.0 fields/s**, with
+On the tested S3, two full 90-second tours of the **original camera route and
+palette pack** reported **32.6–60.0 fields/s**, with
 close window passes reaching **60 fields/s and 100% sampled cache hits**. Free
 memory stayed at **34,243 bytes internal RAM and 1,858,852 bytes PSRAM** after
 warmup, with no logged panic, watchdog or heap-corruption errors. The pool plus
@@ -171,7 +215,10 @@ For context, the same tour with live bilinear filtering reported **22.6–40.0
 fields/s**; nearest reported **39.2–60.0**. Different moving-camera captures are
 not a matched microbenchmark. A separate fixed-view test found exact prefiltered
 bilinear reduced close-window update/render work from about **26 ms to 9–11 ms**,
-with identical image hashes. [Validation details](docs/VALIDATION.md).
+with identical image hashes. These are historical measurements: the new palette
+pack has been visually approved on the S3. The revised lighting-focused camera
+route has also been flashed and readback-verified, with a clean 100-second
+playback capture. That validation is not a matched performance comparison. [Validation details](docs/VALIDATION.md).
 
 Turn `CHAPEL_HOT_FILTER=OFF` before enabling any fixed benchmark. Available
 switches in `main/CMakeLists.txt` cover nearest/bilinear/three-point comparisons,
@@ -203,7 +250,7 @@ not required by the firmware build. From this repository's root:
 ```sh
 git clone https://github.com/lambertjamesd/n64brew2023.git upstream
 git -C upstream checkout 8841ddf3e7d591af17287391f4b3b8728064c7bf
-python -m pip install numpy Pillow
+python -m pip install -r esp32-streaming-chapel/tools/requirements.txt
 blender --background --factory-startup --disable-autoexec --python esp32-streaming-chapel/tools/export_scene.py
 python esp32-streaming-chapel/tools/pack_assets.py
 ```
@@ -211,8 +258,11 @@ python esp32-streaming-chapel/tools/pack_assets.py
 The conversion was validated with Blender 4.4.3. The exporter disables embedded
 script execution and reads the pinned scene. The asset manifest retains source
 hashes; conversion changes are described in [asset provenance](esp32-streaming-chapel/generated/README.md).
-Different image-library versions can change quantization results; the checked-in
-pack is the reference used for the measurements.
+Pillow 12.3.0 and NumPy 2.3.5 reproduce the S3-approved weighted palette pack
+byte for byte in the validated environment. To use an existing upstream checkout,
+pass `--upstream /path/to/n64brew2023` to `pack_assets.py`. The manifest records
+generator versions and source hashes; other library versions or platforms may
+change numerical rounding or quantization results.
 
 ## Licence and acknowledgements
 

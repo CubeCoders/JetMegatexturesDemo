@@ -1,16 +1,17 @@
 {
   "date": "2026-09-25",
-  "build": "clean checkout from checked-in SDK defaults; ESP-IDF 6.0.1, Xtensa GCC 15.2.0",
+  "build": "checked-in SDK defaults; ESP-IDF 6.0.1, Xtensa GCC 15.2.0",
   "hardware_target": "esp32s3; 16 MiB flash; 8 MiB octal PSRAM; buttons off",
-  "firmware_bytes": 5641152,
-  "firmware_sha256": "44c8b3bb9480ab2b093761a8bc1b48c46670e9583ca2b3c6283b5bdeb2e438a5",
+  "firmware_bytes": 5641200,
+  "firmware_sha256": "aadac3daf27d41146d1def9305839bafb986ddf285150b64d89e5f450997202f",
   "asset_bytes": 5253888,
-  "asset_sha256": "04172d7ccea428b9d3f7edb5554e43fe1660e38676a9ad0d493e62d3a1867ac1",
+  "asset_sha256": "33b9a359129c9f9cf86248b8b96a9bb732dd1cad9678730b2566392e6ff8ef72",
+  "camera_source_sha256": "a35ec34321dc9ebbb1de4358b6ef67f3cee6516489882812bc034a0819849aa6",
   "native_tests": {
     "passed": 10,
     "failed": 0,
     "compiler": "MSVC 19.51.36248.0, Release with assertions"
   },
   "flashed": false,
-  "note": "Previously validated hot-cache firmware remains on S3; publication build is compile-checked."
+  "note": "Default buttons-off build is compile-checked; a separate buttons-on build is used on the reference board."
 }

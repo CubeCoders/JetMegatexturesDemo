@@ -1,0 +1,316 @@
+{
+  "method": "Weighted Oklab palette optimization, lightness distance x1.5; bright/chromatic importance; edge-aware chroma-cleaned training only; unique RGB565 entries; full-mip Floyd-Steinberg",
+  "source_target_unchanged": true,
+  "asset_bytes": 5253888,
+  "original_sha256": "04172d7ccea428b9d3f7edb5554e43fe1660e38676a9ad0d493e62d3a1867ac1",
+  "previous_sha256": "8cddf1c2777b9418bc9913d4839258574aff72a477b90b84da351c34a6a06579",
+  "weighted_sha256": "33b9a359129c9f9cf86248b8b96a9bb732dd1cad9678730b2566392e6ff8ef72",
+  "textures": [
+    {
+      "name": "benches",
+      "old_distinct_colours": 162,
+      "new_distinct_colours": 256,
+      "previous": {
+        "lightness_mae": 0.007144775241613388,
+        "perceptual_rmse": 0.021478036418557167,
+        "bright_saturated_rmse": null,
+        "dark_lightness_mae": 0.0061712549068033695
+      },
+      "weighted": {
+        "lightness_mae": 0.005033263936638832,
+        "perceptual_rmse": 0.015986815094947815,
+        "bright_saturated_rmse": null,
+        "dark_lightness_mae": 0.004725790582597256
+      }
+    },
+    {
+      "name": "ceiling",
+      "old_distinct_colours": 72,
+      "new_distinct_colours": 256,
+      "previous": {
+        "lightness_mae": 0.006034455727785826,
+        "perceptual_rmse": 0.017962953075766563,
+        "bright_saturated_rmse": null,
+        "dark_lightness_mae": 0.005884213373064995
+      },
+      "weighted": {
+        "lightness_mae": 0.004025353118777275,
+        "perceptual_rmse": 0.013272885233163834,
+        "bright_saturated_rmse": null,
+        "dark_lightness_mae": 0.004092619754374027
+      }
+    },
+    {
+      "name": "entry",
+      "old_distinct_colours": 66,
+      "new_distinct_colours": 256,
+      "previous": {
+        "lightness_mae": 0.006209640298038721,
+        "perceptual_rmse": 0.0148994205519557,
+        "bright_saturated_rmse": null,
+        "dark_lightness_mae": 0.006179998628795147
+      },
+      "weighted": {
+        "lightness_mae": 0.00396544486284256,
+        "perceptual_rmse": 0.010305337607860565,
+        "bright_saturated_rmse": null,
+        "dark_lightness_mae": 0.003965706564486027
+      }
+    },
+    {
+      "name": "floor_main",
+      "old_distinct_colours": 180,
+      "new_distinct_colours": 256,
+      "previous": {
+        "lightness_mae": 0.007972592487931252,
+        "perceptual_rmse": 0.021106982603669167,
+        "bright_saturated_rmse": 0.07987149550151768,
+        "dark_lightness_mae": 0.007169435732066631
+      },
+      "weighted": {
+        "lightness_mae": 0.006043292116373777,
+        "perceptual_rmse": 0.016297532245516777,
+        "bright_saturated_rmse": 0.014311183913539768,
+        "dark_lightness_mae": 0.005901245400309563
+      }
+    },
+    {
+      "name": "floor_upper",
+      "old_distinct_colours": 242,
+      "new_distinct_colours": 256,
+      "previous": {
+        "lightness_mae": 0.00997321866452694,
+        "perceptual_rmse": 0.027514904737472534,
+        "bright_saturated_rmse": 0.09497857245078567,
+        "dark_lightness_mae": 0.007257630117237568
+      },
+      "weighted": {
+        "lightness_mae": 0.00863104872405529,
+        "perceptual_rmse": 0.0230417363345623,
+        "bright_saturated_rmse": 0.04646678088713297,
+        "dark_lightness_mae": 0.0069454144686460495
+      }
+    },
+    {
+      "name": "wall_back",
+      "old_distinct_colours": 87,
+      "new_distinct_colours": 256,
+      "previous": {
+        "lightness_mae": 0.005110657308250666,
+        "perceptual_rmse": 0.016432683914899826,
+        "bright_saturated_rmse": null,
+        "dark_lightness_mae": 0.004666496999561787
+      },
+      "weighted": {
+        "lightness_mae": 0.0035808493848890066,
+        "perceptual_rmse": 0.011895912699401379,
+        "bright_saturated_rmse": null,
+        "dark_lightness_mae": 0.003451801370829344
+      }
+    },
+    {
+      "name": "wall_left_0",
+      "old_distinct_colours": 132,
+      "new_distinct_colours": 256,
+      "previous": {
+        "lightness_mae": 0.009704677388072014,
+        "perceptual_rmse": 0.028479168191552162,
+        "bright_saturated_rmse": 0.050958395512376714,
+        "dark_lightness_mae": 0.006504077930003405
+      },
+      "weighted": {
+        "lightness_mae": 0.007149343378841877,
+        "perceptual_rmse": 0.0196008812636137,
+        "bright_saturated_rmse": 0.023341155962986342,
+        "dark_lightness_mae": 0.006177756004035473
+      }
+    },
+    {
+      "name": "wall_left_1",
+      "old_distinct_colours": 142,
+      "new_distinct_colours": 256,
+      "previous": {
+        "lightness_mae": 0.010590785183012486,
+        "perceptual_rmse": 0.03294507414102554,
+        "bright_saturated_rmse": 0.09162548480777322,
+        "dark_lightness_mae": 0.009155720472335815
+      },
+      "weighted": {
+        "lightness_mae": 0.007094064261764288,
+        "perceptual_rmse": 0.02137811668217182,
+        "bright_saturated_rmse": 0.02878278044582922,
+        "dark_lightness_mae": 0.007691609673202038
+      }
+    },
+    {
+      "name": "wall_main",
+      "old_distinct_colours": 97,
+      "new_distinct_colours": 256,
+      "previous": {
+        "lightness_mae": 0.006147319916635752,
+        "perceptual_rmse": 0.022100510075688362,
+        "bright_saturated_rmse": 0.036771063493781876,
+        "dark_lightness_mae": 0.004742572549730539
+      },
+      "weighted": {
+        "lightness_mae": 0.004195026587694883,
+        "perceptual_rmse": 0.014884719625115395,
+        "bright_saturated_rmse": 0.012829852282982225,
+        "dark_lightness_mae": 0.003765320172533393
+      }
+    },
+    {
+      "name": "wall_right_0",
+      "old_distinct_colours": 129,
+      "new_distinct_colours": 256,
+      "previous": {
+        "lightness_mae": 0.008111256174743176,
+        "perceptual_rmse": 0.022228559479117393,
+        "bright_saturated_rmse": null,
+        "dark_lightness_mae": 0.010969572700560093
+      },
+      "weighted": {
+        "lightness_mae": 0.004890189506113529,
+        "perceptual_rmse": 0.012815749272704124,
+        "bright_saturated_rmse": null,
+        "dark_lightness_mae": 0.005953047890216112
+      }
+    },
+    {
+      "name": "wall_right_1",
+      "old_distinct_colours": 141,
+      "new_distinct_colours": 256,
+      "previous": {
+        "lightness_mae": 0.007867110893130302,
+        "perceptual_rmse": 0.023454001173377037,
+        "bright_saturated_rmse": 0.0651697754086153,
+        "dark_lightness_mae": 0.011033662594854832
+      },
+      "weighted": {
+        "lightness_mae": 0.00492129847407341,
+        "perceptual_rmse": 0.01382507011294365,
+        "bright_saturated_rmse": 0.05174362240010828,
+        "dark_lightness_mae": 0.0068962532095611095
+      }
+    },
+    {
+      "name": "window_left_0",
+      "old_distinct_colours": 118,
+      "new_distinct_colours": 256,
+      "previous": {
+        "lightness_mae": 0.008949285373091698,
+        "perceptual_rmse": 0.034049585461616516,
+        "bright_saturated_rmse": 0.030447445391741483,
+        "dark_lightness_mae": 0.011050539091229439
+      },
+      "weighted": {
+        "lightness_mae": 0.007081125397235155,
+        "perceptual_rmse": 0.017944669350981712,
+        "bright_saturated_rmse": 0.01647589079040253,
+        "dark_lightness_mae": 0.005231181625276804
+      }
+    },
+    {
+      "name": "window_left_1",
+      "old_distinct_colours": 146,
+      "new_distinct_colours": 256,
+      "previous": {
+        "lightness_mae": 0.008679047226905823,
+        "perceptual_rmse": 0.025551235303282738,
+        "bright_saturated_rmse": 0.021958263637273132,
+        "dark_lightness_mae": 0.009014750830829144
+      },
+      "weighted": {
+        "lightness_mae": 0.0058271754533052444,
+        "perceptual_rmse": 0.014921937137842178,
+        "bright_saturated_rmse": 0.013198963892472498,
+        "dark_lightness_mae": 0.005346549209207296
+      }
+    },
+    {
+      "name": "window_left_2",
+      "old_distinct_colours": 142,
+      "new_distinct_colours": 256,
+      "previous": {
+        "lightness_mae": 0.008402647450566292,
+        "perceptual_rmse": 0.025810543447732925,
+        "bright_saturated_rmse": 0.02302967966646581,
+        "dark_lightness_mae": 0.006985899526625872
+      },
+      "weighted": {
+        "lightness_mae": 0.007107964716851711,
+        "perceptual_rmse": 0.018125245347619057,
+        "bright_saturated_rmse": 0.012648114169348903,
+        "dark_lightness_mae": 0.0063021499663591385
+      }
+    },
+    {
+      "name": "window_main",
+      "old_distinct_colours": 162,
+      "new_distinct_colours": 256,
+      "previous": {
+        "lightness_mae": 0.007339796517044306,
+        "perceptual_rmse": 0.03045850619673729,
+        "bright_saturated_rmse": 0.04334774366086198,
+        "dark_lightness_mae": 0.005604304373264313
+      },
+      "weighted": {
+        "lightness_mae": 0.006254052743315697,
+        "perceptual_rmse": 0.018298733979463577,
+        "bright_saturated_rmse": 0.01358766785742395,
+        "dark_lightness_mae": 0.004211327992379665
+      }
+    },
+    {
+      "name": "window_right_0",
+      "old_distinct_colours": 129,
+      "new_distinct_colours": 256,
+      "previous": {
+        "lightness_mae": 0.009081201627850533,
+        "perceptual_rmse": 0.03303585201501846,
+        "bright_saturated_rmse": 0.02463566226661225,
+        "dark_lightness_mae": 0.01033185888081789
+      },
+      "weighted": {
+        "lightness_mae": 0.007695729378610849,
+        "perceptual_rmse": 0.018969586119055748,
+        "bright_saturated_rmse": 0.016266592879234917,
+        "dark_lightness_mae": 0.006536534521728754
+      }
+    },
+    {
+      "name": "window_right_1",
+      "old_distinct_colours": 146,
+      "new_distinct_colours": 256,
+      "previous": {
+        "lightness_mae": 0.008308082818984985,
+        "perceptual_rmse": 0.025839505717158318,
+        "bright_saturated_rmse": 0.02865691787844664,
+        "dark_lightness_mae": 0.007550991605967283
+      },
+      "weighted": {
+        "lightness_mae": 0.005893293768167496,
+        "perceptual_rmse": 0.016284765675663948,
+        "bright_saturated_rmse": 0.013067749803260505,
+        "dark_lightness_mae": 0.005491965916007757
+      }
+    },
+    {
+      "name": "window_right_2",
+      "old_distinct_colours": 154,
+      "new_distinct_colours": 256,
+      "previous": {
+        "lightness_mae": 0.007945841178297997,
+        "perceptual_rmse": 0.02522299811244011,
+        "bright_saturated_rmse": 0.018206608138705786,
+        "dark_lightness_mae": 0.008043499663472176
+      },
+      "weighted": {
+        "lightness_mae": 0.006674250587821007,
+        "perceptual_rmse": 0.01659216545522213,
+        "bright_saturated_rmse": 0.010974156074128714,
+        "dark_lightness_mae": 0.00627693347632885
+      }
+    }
+  ]
+}

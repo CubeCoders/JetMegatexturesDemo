@@ -12,33 +12,43 @@
   "capture_clock": "nominal 60 fields/s, paired to 30 frames/s; not S3 timing",
   "fill_allowance": "deterministic 64 rows / at most one tile per field; no host wall-time budget",
   "warmup": "all preceding tour fields rendered, including gaps between selected clips",
-  "screenshot_seconds": 7.983333333333333,
+  "asset_sha256": "33b9a359129c9f9cf86248b8b96a9bb732dd1cad9678730b2566392e6ff8ef72",
+  "camera_source_sha256": "a35ec34321dc9ebbb1de4358b6ef67f3cee6516489882812bc034a0819849aa6",
+  "palette": "per-source-texture weighted Oklab / RGB565, full-mip Floyd-Steinberg",
+  "screenshot_seconds": {
+    "chapel.png": 1.9833333333333334,
+    "water-gun-light.png": 25.983333333333334
+  },
   "gif_tour_segments_seconds": [
     [
-      4,
-      8
+      0,
+      4
     ],
     [
-      20,
-      24
+      36,
+      40
     ],
     [
-      46,
-      50
+      74,
+      78
     ]
   ],
-  "gif_fps": 12,
+  "gif_fps": 10,
   "upstream": "https://github.com/lambertjamesd/n64brew2023",
   "upstream_revision": "8841ddf3e7d591af17287391f4b3b8728064c7bf",
   "licence": "../../LICENSE.n64brew2023",
   "files": {
     "chapel.png": {
-      "bytes": 84297,
-      "sha256": "06d63b244d8095d01fbd1c2d24877d11cb9104e90f9969487e4f7999eeb5fb2d"
+      "bytes": 90130,
+      "sha256": "43f437075a069bfe69eda4ec4e2f7e904836c045a04be922525ef1e0603dd520"
+    },
+    "water-gun-light.png": {
+      "bytes": 90875,
+      "sha256": "74d5516640973012c2340ee6a80ce79875fcd8bd2cf7ce43d80ecaeb5ca6fd26"
     },
     "chapel.gif": {
-      "bytes": 7415065,
-      "sha256": "1c361fca3c4f8602b3096e9f087c5eded16f8075c45de4a25ee3086d09b91906"
+      "bytes": 9301410,
+      "sha256": "513e4a087cff35a7af501e8b226e8a3f57a0592e8c4f8f80136e22e2cd2e7e10"
     }
   }
 }
